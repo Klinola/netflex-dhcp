@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>设备授权</title>
+</head>
+<body>
+    <h1>设备授权</h1>
+    <form action="/authorize" method="post">
+        <label for="mac">MAC 地址:</label>
+        <input type="text" id="mac" name="mac"><br><br>
+        <label for="device_id">设备编号/标识:</label>
+        <input type="text" id="device_id" name="device_id"><br><br>
+        <label for="expected_network">预期网段/落地:</label>
+        <input type="text" id="expected_network" name="expected_network"><br><br>
+        <input type="submit" value="授权">
+    </form>
+</body>
+</html>
